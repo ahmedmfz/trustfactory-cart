@@ -72,4 +72,12 @@ php artisan key:generate
 php artisan queue:table
 php artisan migrate --seed
 
+
+
+``### 2)Run the app
+
 php artisan serve
+
+php artisan schedule:work
+
+php artisan queue:work

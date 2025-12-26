@@ -10,7 +10,7 @@
         <table class="w-full">
             <thead class="bg-gray-50 text-sm text-gray-600">
                 <tr>
-                    <th class="px-6 py-3">Product</th>
+                    <th class="px-6 py-3">Product Name</th>
                     <th class="px-6 py-3">Price</th>
                     <th class="px-6 py-3">Stock</th>
                     <th class="px-6 py-3 text-right">Action</th>

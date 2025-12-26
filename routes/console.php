@@ -1,8 +1,11 @@
 <?php
 
-use Illuminate\Foundation\Inspiring;
-use Illuminate\Support\Facades\Artisan;
 
-Artisan::command('inspire', function () {
-    $this->comment(Inspiring::quote());
-})->purpose('Display an inspiring quote');
+
+use Illuminate\Support\Facades\Schedule;
+
+Schedule::command('sales:daily-report')->dailyAt('20:00');
+
+Schedule::command('queue:work --stop-when-empty --sleep=1 --tries=3 --timeout=90')
+    ->everyMinute()
+    ->withoutOverlapping();
