@@ -74,7 +74,7 @@ php artisan migrate --seed
 
 
 
-``### 2)Run the app
+### 2)Run the app
 
 php artisan serve
 
