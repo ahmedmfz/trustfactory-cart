@@ -60,7 +60,7 @@ The shopping cart is stored in the **database** and always associated with the *
 
 ### 1) Clone & install dependencies
 ```bash
-git clone <YOUR_REPO_URL>
+git clone https://github.com/ahmedmfz/trustfactory-cart.git
 cd trustfactory-cart
 
 composer install
